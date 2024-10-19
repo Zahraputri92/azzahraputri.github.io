@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatble" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel ="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <nav class="navbar">
+            <a href="#" >Home</a>
+            <a href="#" >About</a>
+            <a href="#" >Skills</a>
+            <a href="#" >Contact</a>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="home-content">
+            <h1>Hi, I'm Azzahra Putri</h1>
+            <h3>Graphic Desain</h3>
+            <p>Jobs in graphic design are very exciting and creative because they combine visual arts with communication purposes. It is a very diverse role, which involves using elements such as typography, colors, images, and layouts to create compelling pieces and convey messages clearly.</p>
+            <div class="btn-box">
+                <a href="#">Hire Me</a>
+                <a href="#">Let's Talk</a>
+        </div>
+
+        <div class="home-sci">
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+        </div>
+
+        <span class="home-imgHover"></span>
+    </section>
+
+    <section id="about">
+        <div class="about-box">
+
+            <div class="about-info">
+                <h1><span>About Me</span></h1>
+                <p>Hi! I’m Zahra, a passionate graphic designer with a keen eye for detail and a love for creative problem-solving. 
+                    I enjoy working on collaborative projects, 
+                    where I can bring my creativity and technical skills together to push the boundaries of design. </p>
+            </div>
+
+            <h2><span>Skills</span></h2>
+                <div class="skills">
+                <ul>
+                    <li>
+                        <span>Adobe Ilustrator</span>
+                    </li>
+                    <li>
+                        <span>Adobe Photoshop</span>
+                    </li>
+                    <li>
+                        <span>Figma</span>
+                    </li>
+                    <li>
+                        <span>MySQL</span>
+                    </li>
+                    <li>
+                        <span>HTML</span>
+                    </li>
+                    <li>
+                        <span>CSS</span>
+                    </li>
+                </ul>   
+            </div>
+        </div>
+
+        <img src="woman.jpg" alt="">
+    </section>
+
+
+    <section id="contact">
+
+        <section class="contact" id="contact">
+        
+
+        <form action="#">
+            <div class="contact-form-container">
+                <h2>Contact Me</h2>
+                <form action="submit_form.php" method="POST">
+                    <div class="input-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+        
+                    <div class="input-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+        
+                    <div class="input-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+        
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+   
+    </section>
+    </body>
+</html>
